@@ -56,19 +56,19 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 0 0 7em 7em;
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
 }
 #design, #development, #productmgt{
     height: auto;
-    width: 99%;
+    width: auto;
 }
 
 
 /* hover and control*/
 .product {
     padding: 1em;
-    margin: 0 2em
+    margin: 0 2em;
+   
 } 
 .product:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -78,12 +78,11 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 0 0 7em 7em;
-    display: flex;
-    justify-content: space-around;
+    
 } 
 
 /* sizing images*/
-#work1, #work2, #work3, #work4{
+#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8{
     height: auto;
     width: 99%;
 }
@@ -101,35 +100,38 @@ body{
     display: block;
     text-align: center;
     background-image:url("assets/backgrounds/c_image.jpg");
-    color: white;
+   /* color: white;*/
     padding:2em 0 4em 0 ;
     border-bottom: 2px solid white;
 }
+/*
 #input {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 4em;
 }
-#input1{
+*/
+#inputname,#inputemail{
     padding: 1em 3em 1em 3em;
     border: 0;
     margin-right: -0.3em;
     font-weight: 700;
     color: black;
 }
-#email{
-    padding: 0.8em 2.5em;
-    background-color: #ED661F;
+
+
+#inputmessage{
+    padding: 1em 3em 1em 3em;
     border: 0;
-    color: white;
+    margin-right: -0.3em;
     font-weight: 700;
-    font-size: medium;
-    cursor: pointer;
+    color: #fcfafa;
 }
 
 #icons {
     display: flex;
+    justify-content: center;
 }
 #icons .icon {
     height: 24px;
@@ -138,6 +140,7 @@ body{
     border-radius: 30px;
     padding: 0.5em;
     cursor: pointer;
+    
 }
 
 /*Copyright text*/
