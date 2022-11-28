@@ -25,7 +25,7 @@ Here is the link to the website (https://patwer.github.io/Week3_IP_DelaniStudio/
 # Technology Used
 * HTML -To build the page contents.
 * CSS - To style the page contents.
-* jquery- To make the project interactive
+* jquery- To make the project interactive 
 
 # Licence
 
