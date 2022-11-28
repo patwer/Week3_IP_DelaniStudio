@@ -20,7 +20,7 @@ This is a website for Delani Studio, showcasing the services offered by the stud
 * website link
 
 # Link
-Here is the link to the website (xxxx)
+Here is the link to the website (https://patwer.github.io/Week3_IP_DelaniStudio/)
 
 # Technology Used
 * HTML -To build the page contents.
