@@ -1,1 +1,158 @@
-#style
+body{
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.welcome{
+    background-image:url("assets/backgrounds/h_img.jpg");
+    background-size: contain;
+    padding: 3em 0 7em 4em;
+    display: flex;
+    justify-content: space-around;
+}
+.intro{
+    padding: 3em 0 7em 4em ;
+}
+.intro h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+.about_us{
+    display: block;
+    justify-content: space-around;
+    padding: 3em 0 7em 4em;
+    display: flex;
+    justify-content: space-around;
+}
+#about{
+    padding: 1em 0 3em 4em;
+  
+}
+#about #heading1 {
+    padding: 0em;
+   
+    
+}
+#about .heading {
+    margin: 0;
+}
+
+.services{
+    background-image:url("assets/backgrounds/s_image.jpg");
+    display: block;
+    text-align: center;
+    padding: 0 15em 2em 15em;
+}  
+.services .underline-link::after {
+    margin: auto;
+    width: 30%;
+}
+.services #heading1 {
+    line-height: 4em;
+    justify-content: center;
+}
+
+.what_we_do{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 7em 7em;
+    display: flex;
+    justify-content: space-around;
+}
+#design, #development, #productmgt{
+    height: auto;
+    width: 99%;
+}
+
+
+/* hover and control*/
+.product {
+    padding: 1em;
+    margin: 0 2em
+} 
+.product:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 7em 7em;
+    display: flex;
+    justify-content: space-around;
+} 
+
+/* sizing images*/
+#work1, #work2, #work3, #work4{
+    height: auto;
+    width: 99%;
+}
+.product {
+    padding: 1em;
+    margin: 0 2em
+} 
+.product:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+/*contact us and footer*/
+.contactus{
+    display: block;
+    text-align: center;
+    background-image:url("assets/backgrounds/c_image.jpg");
+    color: white;
+    padding:2em 0 4em 0 ;
+    border-bottom: 2px solid white;
+}
+#input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+#input1{
+    padding: 1em 3em 1em 3em;
+    border: 0;
+    margin-right: -0.3em;
+    font-weight: 700;
+    color: black;
+}
+#email{
+    padding: 0.8em 2.5em;
+    background-color: #ED661F;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#icons {
+    display: flex;
+}
+#icons .icon {
+    height: 24px;
+    margin: 0 0.5em ;
+    background-color: white;
+    border-radius: 30px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+/*Copyright text*/
+.footer-text {
+    text-align: center;
+    font-weight: 600;
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+/*format headers, center*/
+#heading1 {
+    padding: 0 0 0 8em;
+    display: flex;
+    justify-content:center;
+    line-height: 3em;
+    margin-bottom: 2em;
+}
