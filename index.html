@@ -1,42 +1,132 @@
 <!DOCTYPE html>
-
-
+<html lang="en">
 <head>
-    <title>About</title>
-    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
+    <title>Delani Studio</title>
+    
 </head>
-
 <body>
-    <div class="navbar">
+    
+    <div class="welcome">
+        <div  class="intro">
+            <h1> WELCOME TO DELANI STUDIO</h1>
+            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                  </div>
+        
+    </div>
+    
+	<!--About us-->
+    <div class="about_us">
+        <div id="about">
+            <div id="heading1">
+                <span class="heading underline-link">ABOUT US</span>
+            </div>
+            <p> When you work with us, you are part of a team committed collaborators. All aspects of our software development processs are integrated, interactive and agile</p>
+        </div>
+       
+    </div>
+	
+	<!--Services-->
+    <div class="services ">
+        <div id="heading1">
+            <span class="heading underline-link">SERVICES</span>
+        </div>
+        <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.
+            <br/>The outcome of this scoping session is proposal or high level statement of work</p>
+    </div>
 
-        <div class="nav-links">
-            <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Background">Background</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
+<!--What we do-->
+    <div id="heading1">
+        <span class="heading underline-link">WHAT WE DO</span>
+    </div>
+    <div class="what_we_do">
+        
+		<!--Design-->
+        <div class="product">
+            <img  id="design" src="assets/services_icons/design_icon.png" alt="Design">
+            <h4 >DESIGN</h4>
+          
+        </div>
+		<!--Development-->
+        <div class="product">
+            <img id="development" src="assets/services_icons/dev_icon.png" alt="Development">
+            <h4>DEVELOPMENT</h4>
+            
+        </div>
+		<!--Product management-->
+        <div class="product">
+            <img id="productmgt" src="assets/services_icons/product_icon.png" alt="Product Management">
+            <h4>PRODUCT MANAGEMENT</h4>
+          
+        </div>
+      
+    </div>
+
+<!--Portfolio-->
+    <div id="heading1">
+        <span class="heading underline-link">PORTFOLIO</span>
+    </div>
+    <div class="portfolio">
+        
+		<!--1st block-->
+        <div class="product">
+            <img id="work1" src="assets/portfolio/work1.jpg" alt="Work 1">
+          
+        </div>
+		<!--Ontario-->
+        <div class="product">
+            <img id="work2" src="assets/portfolio/work2.jpg" alt="Work 2">
+          
+        </div>
+		<!--Yellow-->
+        <div class="product">
+            <img id="work3" src="assets/portfolio/work3.jpg" alt="Work 3">
+           
+        </div>
+		<!--Detailed site-->
+        <div class="product">
+            <img id="work4" src="assets/portfolio/work4.jpg" alt="Work 4">
+           
         </div>
     </div>
-    <section class="parent">
-        <style>
-            @media (min-width:768px) {
-                .parent {
-                    display: flex;
-                    border: 3px dashed lightgray;
-                }
-            }
-        </style>
-
-       
-    </section>
-
+   
+    
+   
+    <div class="contactus">
+        <h2>CONTACT US</h2>
+          <div id="input">
+		   <input id="input1" type="text" placeholder="Name">
+            <input id="input1" type="text" placeholder="Email">
+			<input id="input1" type="text" placeholder="Your message here">
+            <button id="email" type="submit">Submit</button>
+        </div>
+    </div>
     <div class="footer">
         <footer>
-            <div id="column1">
-                <h2>Let's talk</h2>
-               
+            <div id="footer1">
+                
+                 
+                    <div id="icons">
+                        <img id="twitter" class="icon" src="assets/social_icons/twitter.png" alt="Twitter">
+                        <img id="facebook" class="icon" src="assets/social_icons/facebook.png" alt="Facebook">
+                        <img id="instagram" class="icon" src="assets/social_icons/flickr.png" alt="Instagram">
+                    </div>
+                   
+                
+                
+            </div>
+            <div>
+                <p class="footer-text">DELANI STUDIO 2019</p>
             </div>
         </footer>
     </div>
+
+    
 </body>
+</html>
