@@ -1,4 +1,4 @@
-//function to pick the date from input date of birth and map to Akan name
+//function to pick contact input
 const receive_message=()=>
 {
 
@@ -24,11 +24,8 @@ if (name=="" || email=="" ||message=="")
 }
 else
 {
- 
-//alert
+ //alert
 window.alert(`${name}, your message has been received. Thank you for reaching out to us`);
-
-
 }
 
 }
