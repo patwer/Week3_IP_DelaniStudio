@@ -3,12 +3,18 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+
+.child{
+    height:auto;
+}
+
 .welcome{
     background-image:url("assets/backgrounds/h_img.jpg");
     background-size: contain;
     padding: 3em 0 7em 4em;
     display: flex;
     justify-content: space-around;
+    color:#fcfafa;
 }
 .delanilogo{
     
@@ -48,6 +54,7 @@ body{
     display: block;
     text-align: center;
     padding: 0 15em 2em 15em;
+    color:#fcfafa;
 }  
 .services .underline-link::after {
     margin: auto;
@@ -80,10 +87,14 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.showonhover {
+    display: none;
+  }
+
 .portfolio{
     display: flex;
     justify-content: space-around;
-    padding: 0 0 7em 7em;
+   /* padding: 0 0 7em 7em;*/
    
 } 
 
@@ -106,7 +117,7 @@ body{
     display: block;
     text-align: center;
     background-image:url("assets/backgrounds/c_image.jpg");
-   /* color: white;*/
+   color: white;
     padding:2em 0 4em 0 ;
     border-bottom: 2px solid white;
 }
