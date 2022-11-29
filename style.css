@@ -10,6 +10,12 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.delanilogo{
+    
+    display: flex;
+    justify-content: center;
+}
+
 .intro{
     padding: 3em 0 7em 4em ;
 }
@@ -78,7 +84,7 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 0 0 7em 7em;
-    
+   
 } 
 
 /* sizing images*/
